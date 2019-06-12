@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arvo;
+    background-color: rgb(214, 205, 255);
+}
+
+section {
+    margin: auto;
+    margin-top: 30px; 
+    width: 280px;
+    height: 500px;
+    display: flex;
+}
+
+#text {
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+    font-size: 0.8em;
+}
+
+p {
+    text-align: left;
+}
+#image {
+    position: relative;
+}
+
+.point {
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 40px;
+}
+
+.point:hover {
+    background-color: rgba(245, 6, 6, 0.6);
+}
+
+#epaule {
+    position: absolute;
+    top: 90px;
+    left: 2px;
+}
+
+#coude {
+    position: absolute;
+    top: 170px;
+    right: -5px;
+}
+
+#poignet {
+    position: absolute;
+    top: 220px;
+    left: -6px;
+}
+
+#hanche {
+    position: absolute;
+    top: 230px;
+    right: 15px;
+}
+
+#genou {
+    position: absolute;
+    bottom: 120px;
+    left: 25px;
+}
+
+#cheville {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+

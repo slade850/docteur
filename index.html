@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Docteur, j'ai mal au coeur!</title>
+</head>
+<body onclick="close()">
+    <header>
+        <h1>Le Corps Humain</h1>
+    </header>
+    <section>
+        <div id="image">
+            <img src="./qijx.png" alt="dessin corps humain"/>
+            <div class="point" id="epaule" onclick="describ('epaule')"></div>
+            <div class="point" id="coude" onclick="describ('coude')"></div>
+            <div class="point" id="poignet" onclick="describ('poignet')"></div>
+            <div class="point" id="hanche" onclick="describ('hanche')"></div>
+            <div class="point" id="genou" onclick="describ('genou')"></div>
+            <div class="point" id="cheville" onclick="describ('cheville')"></div>
+        </div>
+        <div id="text">
+            <h2 id="title"></h2>
+            <p id="description"></p>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
